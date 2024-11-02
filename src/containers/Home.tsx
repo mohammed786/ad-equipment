@@ -1,3 +1,4 @@
+import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
 import {
   Card,
@@ -7,8 +8,7 @@ import {
   CardHeader,
   CardTitle,
 } from "@/components/ui/card";
-import { Badge } from "@/components/ui/badge";
-import { Star, ArrowRight, ChevronRight } from "lucide-react";
+import { ArrowRight, ChevronRight, Star } from "lucide-react";
 import { Link, useNavigate } from "react-router-dom";
 
 function Home() {

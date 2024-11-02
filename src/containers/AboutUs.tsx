@@ -1,17 +1,16 @@
 import { Card, CardContent } from "@/components/ui/card";
 import {
-  Building2,
-  Users,
   Briefcase,
-  Zap,
-  BookOpen,
-  Factory,
+  Building2,
   Clock,
-  Cpu,
-  Radio,
-  Wifi,
-  Volume2,
   Cog,
+  Cpu,
+  Factory,
+  Radio,
+  Users,
+  Volume2,
+  Wifi,
+  Zap,
 } from "lucide-react";
 
 export default function AboutUs() {
