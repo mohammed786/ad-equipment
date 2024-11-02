@@ -218,8 +218,5 @@ function Home() {
   );
 }
 
-function LogoIcon(props: any) {
-  return <img src="/logo.png" alt="Logo" {...props} />;
-}
 
 export default Home;
