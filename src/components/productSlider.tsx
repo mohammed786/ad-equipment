@@ -26,16 +26,6 @@ const products = [
     url: "https://www.rohde-schwarz.com/au/products/test-and-measurement/oscilloscopes/rs-rtm3000-oscilloscope_63493-427459.html",
   },
   {
-    name: "Graphtec",
-    product: "GL Series Data Logger",
-    description:
-      "A multi-channel data logger for measuring temperature, humidity, and other parameters with high accuracy.",
-    rating: 4.3,
-    image:
-      "https://cdn.vector.com/cms/content/products/gl_logger/Graphics/GL3400_Front_web_3200x2000px-2021.jpg",
-    url: "https://www.graphteccorp.com/logger/gl100/",
-  },
-  {
     name: "Kistler",
     product: "KiDAQ Data Acquisition System",
     description:

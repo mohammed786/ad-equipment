@@ -38,7 +38,7 @@ function App() {
         </nav>
         {/* Hamburger menu for mobile */}
         <button
-          className="md:hidden ml-4 p-2 text-[#122786] focus:outline-none"
+          className="md:hidden ml-4 p-2 text-[#122786] focus:outline-none bg-gray-100"
           aria-label="Toggle Navigation"
           onClick={toggleMenu}
         >
