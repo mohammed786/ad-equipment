@@ -1,4 +1,3 @@
-import { Card, CardContent } from "@/components/ui/card";
 import { useEffect, useRef } from "react";
 
 const partners = [
@@ -61,8 +60,6 @@ export default function Partners() {
     const scrollContainer = scrollRef.current;
     if (scrollContainer) {
       const scrollWidth = scrollContainer.scrollWidth;
-      const clientWidth = scrollContainer.clientWidth;
-
       let scrollPosition = 0;
       const scroll = () => {
         scrollPosition += 0.5;
