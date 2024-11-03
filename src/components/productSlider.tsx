@@ -16,16 +16,6 @@ const products = [
     url: "https://www.gwinstek.com/en-IN/products/detail/GDS-2000E",
   },
   {
-    name: "Rohde & Schwarz",
-    product: "R&S®RTM3000 Digital Oscilloscope",
-    description:
-      "A high-performance digital oscilloscope with a 5 Gsample/s sampling rate and up to 1 GHz bandwidth. It features a deep memory of 80 Msample, advanced trigger functions, FFT analysis, and optional protocol and logic analysis capabilities, making it suitable for detailed signal analysis in engineering applications.",
-    rating: 4.5,
-    image:
-      "https://cdn.rohde-schwarz.com/image/products/test-and-measurement/oscilloscopes/rtm3000/rtm3004-oscilloscope-front-view-rohde-schwarz_200_646_2880_1620_2.jpg",
-    url: "https://www.rohde-schwarz.com/au/products/test-and-measurement/oscilloscopes/rs-rtm3000-oscilloscope_63493-427459.html",
-  },
-  {
     name: "Kistler",
     product: "KiDAQ Data Acquisition System",
     description:
@@ -34,6 +24,16 @@ const products = [
     image:
       "https://kistler.cdn.celum.cloud/SAPCommerce_CMSGalleryStandard_720x480/kidaq-and-kistudio-lab-with-jbeam-44429.webp",
     url: "https://www.kistler.com/INT/en/c/kidaq-data-acquisition-system/CG21-kidaq-data-acquisition-system",
+  },
+  {
+    name: "Shanghai Prima Electronic Co., Ltd.",
+    product: "PESD-20T1 ESD Simulator",
+    description:
+      "An electrostatic discharge simulator designed for EMC testing, used to evaluate equipment performance under ESD conditions according to IEC61000-4-2 standards.",
+    rating: 4.3,
+    image:
+      "https://omo-oss-image.thefastimg.com/portal-saas/new2023090620384833880/cms/image/78767c15-ed0d-4329-a81f-98969c2a0a20.png_366xaf.png",
+    url: "http://en.emcprima.com/products/26.html", // Placeholder - check for accuracy
   },
 ];
 
