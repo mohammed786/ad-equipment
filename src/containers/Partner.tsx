@@ -62,10 +62,10 @@ export default function Partners() {
       const scrollWidth = scrollContainer.scrollWidth;
       let scrollPosition = 0;
       const scroll = () => {
-        // scrollPosition += 0.5;
-        // if (scrollPosition > scrollWidth / 2) {
-        //   scrollPosition = 0;
-        // }
+        scrollPosition += 0.5;
+        if (scrollPosition > scrollWidth / 2) {
+          scrollPosition = 0;
+        }
         scrollContainer.scrollLeft = scrollPosition;
       };
 
@@ -76,7 +76,7 @@ export default function Partners() {
   }, []);
 
   return (
-    <section className="py-4 overflow-hidden">
+    <section className="py-8 overflow-hidden">
       <div className="container mx-auto px-4">
         <h2 className="text-2xl font-bold text-center text-[#122786]">
           Our Trusted Brands
