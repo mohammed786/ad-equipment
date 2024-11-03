@@ -10,6 +10,9 @@ import {
 } from "@/components/ui/card";
 import { ArrowRight, ChevronRight, Star } from "lucide-react";
 import { Link, useNavigate } from "react-router-dom";
+import Partners from "./Partner";
+import ProductSlider from "@/components/productSlider";
+import Products from "./Products";
 
 function Home() {
   const navigate = useNavigate();
@@ -108,66 +111,28 @@ function Home() {
 
   return (
     <main className="flex-1">
-      <section className="relative overflow-hidden py-20">
-        <div className="absolute inset-0 bg-gradient-to-br from-[#e6f5fb] to-[#d4e1f7] opacity-90" />
-        <div className="relative container mx-auto px-4">
-          <div className="max-w-3xl mx-auto text-center text-[#122786]">
-            <h1 className="text-4xl md:text-5xl font-bold mb-6">
-              AD Equipment & Technologies
-            </h1>
-            <p className="text-xl md:text-2xl mb-8 text-[#31b1e4]">
-              Providing cutting-edge Test & Measurement Solutions and
-              Integration Projects
-            </p>
-            <ul className="text-left text-lg inline-block text-[#122786]">
-              <li className="flex items-center mb-2">
-                <ChevronRight className="mr-2 h-5 w-5 text-[#31b1e4]" />
-                Electrical & Electronic Solutions
-              </li>
-              <li className="flex items-center mb-2">
-                <ChevronRight className="mr-2 h-5 w-5 text-[#31b1e4]" />
-                RF/Wireless Communications
-              </li>
-              <li className="flex items-center mb-2">
-                <ChevronRight className="mr-2 h-5 w-5 text-[#31b1e4]" />
-                Automation/DAQ Solutions
-              </li>
-              <li className="flex items-center mb-2">
-                <ChevronRight className="mr-2 h-5 w-5 text-[#31b1e4]" />
-                EMI/EMC Testing Solutions
-              </li>
-              <li className="flex items-center mb-2">
-                <ChevronRight className="mr-2 h-5 w-5 text-[#31b1e4]" />
-                Sound & Vibration Testing
-              </li>
-              <li className="flex items-center">
-                <ChevronRight className="mr-2 h-5 w-5 text-[#31b1e4]" />
-                LabVIEW based Customized ATE Solutions
-              </li>
-              <Button
-                size="lg"
-                onClick={() => navigate("/about-us")}
-                className="font-semibold bg-[#31b1e4] text-white hover:bg-[#122786] transition-colors my-3"
-              >
-                Learn More About Us
-              </Button>
-            </ul>
-          </div>
-        </div>
-      </section>
-      <section className="w-full py-12 md:py-24 lg:py-32 bg-gray-100 dark:bg-gray-800">
-        <div className="container mx-auto px-4 md:px-6">
-          <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl text-center mb-8">
+      <ProductSlider />
+      <Partners />
+      <section className="w-full py-8 md:py-12 bg-gray-100 dark:bg-gray-800">
+        <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl text-center mb-6">
+          Our Products
+        </h2>
+        <Products />
+        {/* <div className="container mx-auto px-4 md:px-6">
+          <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl text-center mb-6">
             Featured Products
           </h2>
-          <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
+          <div className="grid gap-6 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
             {companies.map((company, index) => (
               <Card key={index} className="flex flex-col justify-between">
                 <CardHeader>
                   <div className="w-full h-48 relative overflow-hidden">
-                    <img src={company.image} alt={company.product} />
+                    <img
+                      src={company.image}
+                      alt={company.product}
+                      className="object-cover w-full h-full"
+                    />
                   </div>
-
                   <CardTitle>{company.product}</CardTitle>
                   <CardDescription>{company.name}</CardDescription>
                 </CardHeader>
@@ -212,11 +177,10 @@ function Home() {
               </Card>
             ))}
           </div>
-        </div>
+        </div> */}
       </section>
     </main>
   );
 }
-
 
 export default Home;

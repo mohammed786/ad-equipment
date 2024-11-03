@@ -1,4 +1,5 @@
 import { Card, CardContent } from "@/components/ui/card";
+import { useEffect, useRef } from "react";
 
 const partners = [
   {
@@ -54,33 +55,67 @@ const partners = [
 ];
 
 export default function Partners() {
+  const scrollRef = useRef<HTMLDivElement>(null);
+
+  useEffect(() => {
+    const scrollContainer = scrollRef.current;
+    if (scrollContainer) {
+      const scrollWidth = scrollContainer.scrollWidth;
+      const clientWidth = scrollContainer.clientWidth;
+
+      let scrollPosition = 0;
+      const scroll = () => {
+        scrollPosition += 0.5;
+        if (scrollPosition > scrollWidth / 2) {
+          scrollPosition = 0;
+        }
+        scrollContainer.scrollLeft = scrollPosition;
+      };
+
+      const intervalId = setInterval(scroll, 20);
+
+      return () => clearInterval(intervalId);
+    }
+  }, []);
+
   return (
-    <div className="container mx-auto px-4 py-16">
-      <h1 className="text-4xl font-bold text-center mb-12">Our Partners</h1>
-      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8">
-        {partners.map((partner) => (
-          <Card
-            key={partner.name}
-            className="hover:shadow-lg transition-shadow duration-300"
-          >
-            <CardContent className="p-6">
-              <a
-                href={partner.url}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="block"
+    <section className="py-8 overflow-hidden">
+      <div className="container mx-auto px-4">
+        <h2 className="text-2xl font-bold text-center text-[#122786] mb-6">
+          Our Trusted Brands
+        </h2>
+        <div
+          ref={scrollRef}
+          className="flex overflow-x-hidden whitespace-nowrap"
+        >
+          <div className="flex animate-scroll">
+            {[...partners, ...partners].map((partner, index) => (
+              <div
+                key={`${partner.name}-${index}`}
+                className="flex-shrink-0 mx-3"
               >
-                <div className="w-full h-48 relative overflow-hidden">
-                  <img src={partner.logo} alt={partner.name} />
-                </div>
-                <h2 className="text-lg font-semibold text-center">
-                  {partner.name}
-                </h2>
-              </a>
-            </CardContent>
-          </Card>
-        ))}
+                <a
+                  href={partner.url}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="block bg-white p-3 rounded-lg hover:shadow-lg transition-shadow duration-300"
+                >
+                  <img
+                    src={partner.logo}
+                    alt={`${partner.name} logo`}
+                    width={80}
+                    height={40}
+                    className="mx-auto"
+                  />
+                  <p className="text-center text-xs mt-2 text-[#122786]">
+                    {partner.name}
+                  </p>
+                </a>
+              </div>
+            ))}
+          </div>
+        </div>
       </div>
-    </div>
+    </section>
   );
 }
