@@ -100,7 +100,6 @@ function Home() {
   return (
     <main className="flex-1">
       <ProductSlider />
-      <Partners />
       <section className="w-full py-8 md:py-12 bg-gray-100 dark:bg-gray-800">
         <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl text-center mb-6">
           Our Products

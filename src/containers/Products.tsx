@@ -69,6 +69,149 @@ const productData = {
       ],
     },
     {
+      category_name: "Arbitrary Function Generators & Source Measurement Units",
+      products: [
+        {
+          product_name: "Arbitrary Function Generator",
+          description:
+            "Versatile and affordable function generator with wide frequency and high resolution.",
+          specifications: {
+            "Frequency Range": "1 µHz to 80/50 MHz",
+            "Sampling Rate": "200 MSa/s",
+            "Amplitude Resolution": "16-bit",
+            "Waveform Length": "Up to 1M points",
+            Display: '4.3" LCD',
+            "Waveform Generation":
+              "Front panel, CSV upload, Waveform Editing software",
+            Interfaces: "USB, RS-232, GPIB",
+          },
+          image: "/images/products/57.jpg",
+        },
+        {
+          product_name: "Multi-channel Function Generator",
+          description:
+            "Multi-channel generator with broad frequency and modulation options.",
+          specifications: {
+            "Output Channels": "Up to 5",
+            "Arbitrary Frequency": "1 µHz to 200 MHz",
+            "RF Frequency": "160/320 MHz",
+            "Pulse Frequency": "25 MHz",
+            "Power Amplifier": "100 kHz, 20 W",
+            Waveform: "250 MSa/s, 14-bit resolution",
+            Modulation: "AM, FM, PM, ASK, FSK, PSK, PWM",
+            Interfaces: "USB Host/Device, LAN",
+          },
+          image: "/images/products/61.jpg",
+        },
+        {
+          product_name: "Source Measurement Unit",
+          description:
+            "Precise source and sink capabilities with high-speed acquisition.",
+          specifications: {
+            Quadrants: "Two/Four quadrants",
+            "Data Acquisition": "FastLog",
+            Modes: "Voltage priority, current priority, high-capacitance",
+            Configurator: "Online product configurator",
+          },
+          image: "/images/products/63.jpg",
+        },
+      ],
+    },
+    {
+      category_name: "Spectrum Analyzer & EMC Test System",
+      products: [
+        {
+          product_name: "Hand Held Spectrum Analyzer",
+          description:
+            "Portable spectrum analyzer with multi-function capabilities for field use.",
+          specifications: {
+            Sensitivity: "< -161 dBm (1 Hz)",
+            "All-in-One": "Spectrum & network analyzer, CAT",
+            Features: "Internal tracking generator, VSWR bridge, bias tee",
+            Durability: "Rugged, splash-proof housing",
+          },
+          image: "/images/products/69.jpg",
+        },
+        {
+          product_name: "Signal & Spectrum Analyzer",
+          description:
+            "Signal and spectrum analyzer with wide frequency range and high performance.",
+          specifications: {
+            "Frequency Range": "10 Hz to 50 GHz",
+            Bandwidth: "Up to 200 MHz",
+            "Phase Noise": "-114 dBc/Hz at 10 kHz offset",
+            Interface: "Multi-touch GUI, SCPI recorder",
+            "Signal Analysis": "Analog, digital, 5G NR",
+          },
+          image: "/images/products/70.png",
+        },
+        {
+          product_name: "Spectrum Analyzer",
+          description:
+            "Spectrum analyzer with built-in features for advanced analysis.",
+          specifications: {
+            "Frequency Range": "9 kHz to 3.25 GHz",
+            Sensitivity: "-149 dBm/Hz",
+            Features: "Preamp, 50 dB attenuator",
+            Analysis: "2FSK, AM/FM/FSK demodulation",
+            Interface: "LAN, USB, RS-232",
+          },
+          image: "/images/products/71.jpg",
+        },
+        {
+          product_name: "Compact EMS/EMI Test Platform",
+          description:
+            "EMS/EMI test system for commercial and scalable EMC testing.",
+          specifications: {
+            Certifiable: "Meets commercial standards",
+            "EMS Range": "80 MHz to 3 GHz",
+            "Dual Function": "EMS & EMI measurements",
+            Scalable: "Expandable for additional EMC applications",
+          },
+          image: "/images/products/72.jpg",
+        },
+      ],
+    },
+    {
+      category_name: "Digital Meters",
+      products: [
+        {
+          product_name: "Measurement Multimeter",
+          description:
+            "Multimeter with 12 measurement functions and high accuracy.",
+          specifications: {
+            Display: "6½-digit, 1,200,000 counts",
+            Accuracy: "DCV: 0.0035%",
+            Functions: "12 including DCV, ACV, resistance, frequency",
+            Interfaces: "USB, RS-232C, LAN",
+          },
+          image: "/images/products/95.png",
+        },
+        {
+          product_name: "DC Milli-Ohm Meter",
+          description: "Precise meter for low-resistance measurements.",
+          specifications: {
+            Display: "50,000 counts",
+            Accuracy: "0.05%",
+            Resolution: "0.1 µΩ",
+            Interfaces: "USB, RS-232C, GPIB",
+          },
+          image: "/images/products/96.jpg",
+        },
+        {
+          product_name: "Battery Meter",
+          description: "Meter for DC voltage and AC resistance measurements.",
+          specifications: {
+            Display: '3.5" TFT LCD',
+            Measurement: "DCV, AC resistance",
+            Accuracy: "Voltage: 0.01%, resistance: 0.5%",
+            Interfaces: "USB, RS-232C",
+          },
+          image: "/images/products/97.png",
+        },
+      ],
+    },
+    {
       category_name: "Power Supplies",
       products: [
         {
@@ -220,6 +363,334 @@ const productData = {
             "Control Interface": "RJ45 for remote control",
           },
           image: "/images/products/98.png",
+        },
+      ],
+    },
+    {
+      category_name: "Safety Tester and Motor Test Scheme",
+      products: [
+        {
+          product_name: "Multi Channel Electrical Safety Tester",
+          description:
+            "High-speed tester for comprehensive AC/DC safety tests.",
+          specifications: {
+            "Testing Types": "AC/DC withstand, insulation, grounding",
+            Detection: "Arc, short/open, low pass filter",
+            Voltage: "AC 5kV, DC 6kV, Insulation 2.5kV",
+            Interfaces: "RS232, USB, LAN, PLC",
+            Application: "Power supplies, motors, batteries",
+          },
+          image: "/images/products/164.jpg",
+        },
+        {
+          product_name: "Comprehensive DC Brushless Motor Test Scheme",
+          description: "Complete test system for brushless DC motors.",
+          specifications: {
+            "Signal Range": "0.5Hz to 100kHz",
+            Accuracy: "0.2%",
+            Efficiency: "One-time wiring for all tests",
+            Modular: "Customizable setup",
+            Interfaces: "USB, RS232, LAN",
+          },
+          image: "/images/products/165.jpg",
+        },
+        {
+          product_name: "Intelligent Electrical Safety Comprehensive Analyzer",
+          description: "Advanced analyzer for electrical safety testing.",
+          specifications: {
+            Functions: "AC/DC withstand, IR, GB, LC",
+            Speed: "0.5s testing",
+            System: "Android OS, barcode scanning",
+            Accuracy: "1%",
+          },
+          image: "/images/products/167.png",
+        },
+      ],
+    },
+    {
+      category_name: "Power Analyzer, Power Meter and DAQ",
+      products: [
+        {
+          product_name: "Multiple Channel Power Analyzer",
+          description: "Multi-channel analyzer for power measurement.",
+          specifications: {
+            Channels: "6",
+            Accuracy: "0.1%",
+            Bandwidth: "0.5Hz - 100kHz",
+            "Power Range": "Up to 20A",
+            Harmonics: "Up to 50th",
+            Applications: "PV inverters, EVs",
+          },
+          image: "/images/products/172.jpg",
+        },
+        {
+          product_name: "Multi-channel High Precision Power Analyzer",
+          description: "High-precision power analyzer.",
+          specifications: {
+            Accuracy: "0.03% + 0.05%",
+            Bandwidth: "DC - 1MHz",
+            Voltage: "Up to 1500V",
+            Current: "50nA - 30A",
+            Display: "Touchscreen",
+          },
+          image:
+            "/images/products/173.jpg",
+        },
+        {
+          product_name: "Digital Power Meter",
+          description:
+            "Digital meter for voltage, current, and harmonic measurements.",
+          specifications: {
+            Accuracy: "DC - 100kHz",
+            Harmonics: "Up to 50th",
+            Interfaces: "RS-232C, USB, LAN",
+            Display: '5" TFT',
+          },
+          image: "/images/products/174.png",
+        },
+        {
+          product_name: "Data Acquisition System",
+          description: "High-speed DAQ for signal measurement.",
+          specifications: {
+            Accuracy: "0.0035% DCV",
+            Channels: "14 signals",
+            Speed: "450 channels/sec",
+            Expandable: "3-slot",
+            Display: '4.3" TFT',
+          },
+          image: "/images/products/175.jpg",
+        },
+      ],
+    },
+    {
+      category_name: "Sound and Vibration",
+      products: [
+        {
+          product_name: "Vibration Comparator",
+          description:
+            "High-precision vibration analysis with simultaneous frequency monitoring.",
+          specifications: {
+            Precision: "Advanced digital filters",
+            TEDS: "Built-in for quick setup",
+            Design: "DIN-sized (96mm x 96mm)",
+            Interface: "Visual and auditory monitoring",
+          },
+          image: "/images/products/212.jpg",
+        },
+        {
+          product_name: "Comparator",
+          description:
+            "Accurate pass/fail judgment for sound and vibration quality control.",
+          specifications: {
+            FFT: "Advanced for precise control",
+            Detection: "Amplitude modulation detection",
+            Functions: "Band-pass, envelope, auditory inspection",
+            Design: "Compact, production line ready",
+          },
+          image: "/images/products/213.jpg",
+        },
+        {
+          product_name: "FFT Analyzer",
+          description:
+            "High-performance signal analysis for precise frequency-domain analysis.",
+          specifications: {
+            Analysis: "FFT algorithms",
+            Display: "Advanced, multi-channel",
+            "Frequency Range": "Low to high",
+            Portability: "Field-use ready, 24-bit ND converter",
+          },
+          image: "/images/products/214.jpg",
+        },
+        {
+          product_name: "Digital Engine Tachometer",
+          description: "High-accuracy RPM measurements for engines and motors.",
+          specifications: {
+            Accuracy: "Precise RPM measurements",
+            Portability: "Compact, field/lab use",
+            Display: "Easy-to-read digital display",
+            Performance: "Reliable, efficient",
+          },
+          image: "/images/products/215.jpg",
+        },
+        {
+          product_name: "Sound Level Meter",
+          description:
+            "Sound level meter with enhanced features for comprehensive analysis.",
+          specifications: {
+            Display: "Large color LCD, touch panel",
+            "Real-Time Listening": "Measure while listening",
+            Functionality: "Upgradeable to analyzer/recorder",
+            Range: "10 Hz to 20 kHz, 20 to 128 dB",
+          },
+          image: "/images/products/216.jpg",
+        },
+      ],
+    },
+    {
+      category_name: "DAQ & Power Analyzers",
+      products: [
+        {
+          product_name: "Genesis HighSpeed-DAQ - GEN3iA/GEN7iA",
+          description:
+            "High-speed data acquisition system for medium to high channel counts.",
+          specifications: {
+            PC: "Intel i5/16GB RAM or Intel i3/4GB RAM",
+            "Data Transfer": "350MB/s SSD or 200MB/s SSD, 1GB Ethernet",
+            System: "Portable, medium to high channel count",
+            Touchscreen: '17" TFT, 1280x1024',
+          },
+          image: "/images/products/222.jpg",
+        },
+        {
+          product_name: "eGrid Power Analyzer - 1-EGRD-6P-7TA",
+          description:
+            "Power analyzer with advanced performance for real-time analysis.",
+          specifications: {
+            Channels: "6 power channels",
+            Sampling: "200kS/s",
+            Software: "Real-time display with Perception Enterprise",
+            Expandable: "Up to 21 channels",
+          },
+          image: "/images/products/223.jpg",
+        },
+        {
+          product_name: "eDrive Power Analyzer - 1-EDRV-6P-31",
+          description:
+            "High-speed power analyzer with integrated system and versatile inputs.",
+          specifications: {
+            Channels: "6 power channels",
+            Sampling: "2 MS/s",
+            System: 'Built-in PC, SSD, 17" touchscreen',
+            Inputs: "Supports voltage, current, torque, speed",
+            Expandable: "Additional power channels and input boards",
+          },
+          image: "/images/products/224.jpg",
+        },
+      ],
+    },
+    {
+      category_name: "Clamp Meters & Data Loggers",
+      products: [
+        {
+          product_name: "Clamp Meter",
+          description:
+            "Measures current and voltage for inverters and VFD systems.",
+          specifications: {
+            "Current Capacity": "Up to 1000 A AC/DC",
+            "Clamp Size": "Up to 35 mm diameter conductors",
+            Functions: "INRUSH, LoZ for accurate readings",
+          },
+          image: "/images/products/238.png",
+        },
+        {
+          product_name: "Insulation Resistance Meter",
+          description:
+            "Tests insulation resistance with surge protection and dielectric discharge.",
+          specifications: {
+            "Voltage Range": "10V to 2500V",
+            "Testing Features":
+              "Step voltage, RampTest, low-voltage continuity",
+            Memory: "9999-entry with USB transmission",
+          },
+          image: "/images/products/239.jpg",
+        },
+        {
+          product_name: "Battery Tester",
+          description:
+            "Evaluates battery health with internal impedance and ripple voltage measurements.",
+          specifications: {
+            Current: "Up to 400 A",
+            Voltage: "Up to 500 V AC/DC",
+            Applications: "Automotive, electrical, renewable energy",
+          },
+          image: "/images/products/240.jpg",
+        },
+        {
+          product_name: "Winding & Low Resistance Meter",
+          description:
+            "Measures resistive and inductive objects with high accuracy.",
+          specifications: {
+            Current: "Up to 200 A resistive, 10 A inductive",
+            Display: "5-inch color touchscreen",
+            Connectivity: "Wi-Fi, USB, LAN",
+          },
+          image: "/images/products/241.png",
+        },
+        {
+          product_name: "Data Logger",
+          description: "High-speed data logger with multi-channel support.",
+          specifications: {
+            "Sampling Rate": "1 MS/s",
+            Channels: "Up to 112",
+            Operation: "Standalone with touch display",
+          },
+          image: "/images/products/242.png",
+        },
+      ],
+    },
+    {
+      category_name: "Other Accessories",
+      products: [
+        {
+          product_name: "Oscilloscope Accessories & Racks",
+          specifications: {
+            Probes: "GTP, GCP Series",
+            "Logic Analyzer": "DS2-08LA, DS2-16LA",
+            Software: "DS3-PWR, DS3-SBD",
+            Adapters: "GPIB, LAN",
+          },
+          image: "/images/products/267.jpg",
+        },
+        {
+          product_name: "Function Generator Accessories & Racks",
+          specifications: {
+            Adapters: "ADP-003, GPA-501",
+            Racks: "GRA-432",
+            "Special Applications": "Ground Lead, RF Cable",
+          },
+          image: "/images/products/268.jpg",
+        },
+        {
+          product_name: "Spectrum Analyzer Accessories & Racks",
+          specifications: {
+            Adapters: "BNC to N, SMA to N",
+            Racks: 'GRA-415 (19" 6U)',
+            "Special Applications": "EMI Probe Kit, DC Block",
+          },
+          image: "/images/products/269.jpg",
+        },
+        {
+          product_name: "Power & Load Accessories & Racks",
+          specifications: {
+            "Interface Cards": "APS Series",
+            Racks: "GRA Series",
+            "Special Applications": "Module Cables, Parallel/Series Cables",
+          },
+          image: "/images/products/270.jpg",
+        },
+        {
+          product_name: "T&M Accessories & Racks",
+          specifications: {
+            Leads: "GBM Series",
+            Racks: "GRA-404/417",
+            "Special Applications": "Test Fixtures, High Voltage Adapters",
+          },
+          image: "/images/products/282.jpg",
+        },
+      ],
+    },
+    {
+      category_name: "NI LabVIEW",
+      products: [
+        {
+          product_name: "NI LabVIEW Customized Integration Projects",
+          specifications: {
+            "Custom Systems": "Tailored test setups with NI LabVIEW.",
+            Automation: "Automated sequences, real-time monitoring.",
+            Reporting: "Automated test reports.",
+            Scalability: "Adaptable for various industries.",
+          },
+          image: "/images/products/283.jpg",
         },
       ],
     },
