@@ -433,8 +433,7 @@ const productData = {
             Current: "50nA - 30A",
             Display: "Touchscreen",
           },
-          image:
-            "/images/products/173.jpg",
+          image: "/images/products/173.jpg",
         },
         {
           product_name: "Digital Power Meter",
@@ -639,6 +638,8 @@ const productData = {
             Software: "DS3-PWR, DS3-SBD",
             Adapters: "GPIB, LAN",
           },
+          description:
+            "A range of accessories and racks designed for oscilloscopes, providing probes, logic analyzers, software, and adapters for enhanced performance and compatibility.",
           image: "/images/products/267.jpg",
         },
         {
@@ -648,6 +649,8 @@ const productData = {
             Racks: "GRA-432",
             "Special Applications": "Ground Lead, RF Cable",
           },
+          description:
+            "Accessories and racks for function generators, including various adapters, racks, and special application tools like ground leads and RF cables.",
           image: "/images/products/268.jpg",
         },
         {
@@ -657,6 +660,8 @@ const productData = {
             Racks: 'GRA-415 (19" 6U)',
             "Special Applications": "EMI Probe Kit, DC Block",
           },
+          description:
+            "Spectrum analyzer accessories and racks for improved signal analysis, with adapters, racks, and special tools like EMI probe kits and DC blocks.",
           image: "/images/products/269.jpg",
         },
         {
@@ -666,6 +671,8 @@ const productData = {
             Racks: "GRA Series",
             "Special Applications": "Module Cables, Parallel/Series Cables",
           },
+          description:
+            "Accessories and racks for power and load testing, including interface cards, racks, and specialized cables for different test configurations.",
           image: "/images/products/270.jpg",
         },
         {
@@ -675,6 +682,8 @@ const productData = {
             Racks: "GRA-404/417",
             "Special Applications": "Test Fixtures, High Voltage Adapters",
           },
+          description:
+            "Test and measurement accessories and racks, offering leads, racks, and special application tools for precise testing, including high voltage adapters and test fixtures.",
           image: "/images/products/282.jpg",
         },
       ],
@@ -690,6 +699,8 @@ const productData = {
             Reporting: "Automated test reports.",
             Scalability: "Adaptable for various industries.",
           },
+          description:
+            "Custom integration projects using NI LabVIEW, designed to provide tailored systems, automate testing processes, and generate real-time reports for scalable applications.",
           image: "/images/products/283.jpg",
         },
       ],
