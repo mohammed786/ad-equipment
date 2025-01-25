@@ -15,7 +15,7 @@ const productData = {
       category_name: "Oscilloscopes",
       products: [
         {
-          product_name: "Hand Held Oscilloscope",
+          product_name: "Hand Held Oscilloscope", // asd
           description:
             "Portable oscilloscope with isolated channels suitable for high voltage measurements.",
           specifications: {
@@ -88,7 +88,7 @@ const productData = {
           image: "/images/products/57.jpg",
         },
         {
-          product_name: "Multi-channel Function Generator",
+          product_name: "Multi-channel Function Generator", // asdsd
           description:
             "Multi-channel generator with broad frequency and modulation options.",
           specifications: {
@@ -215,7 +215,7 @@ const productData = {
       category_name: "Power Supplies",
       products: [
         {
-          product_name: "Programmable AC Power Source",
+          product_name: "Programmable AC Power Source",  /// add
           description:
             "Versatile AC power source for compliance testing with programmable features.",
           specifications: {
@@ -239,7 +239,7 @@ const productData = {
           image: "/images/products/72.png",
         },
         {
-          product_name: "Programmable DC Power Supply",
+          product_name: "Programmable DC Power Supply", // addd
           description:
             "High-efficiency DC power supply with customizable outputs.",
           specifications: {
@@ -270,7 +270,7 @@ const productData = {
           image: "/images/products/78.jpg",
         },
         {
-          product_name: "High Power DC Electronic Load",
+          product_name: "High Power DC Electronic Load", ///
           description:
             "High-density electronic load for industrial testing with dynamic loading capabilities.",
           specifications: {
@@ -370,7 +370,7 @@ const productData = {
       category_name: "Safety Tester and Motor Test Scheme",
       products: [
         {
-          product_name: "Multi Channel Electrical Safety Tester",
+          product_name: "Multi Channel Electrical Safety Tester", //
           description:
             "High-speed tester for comprehensive AC/DC safety tests.",
           specifications: {
@@ -395,7 +395,7 @@ const productData = {
           image: "/images/products/165.jpg",
         },
         {
-          product_name: "Intelligent Electrical Safety Comprehensive Analyzer",
+          product_name: "Intelligent Electrical Safety Comprehensive Analyzer", ///
           description: "Advanced analyzer for electrical safety testing.",
           specifications: {
             Functions: "AC/DC withstand, IR, GB, LC",
