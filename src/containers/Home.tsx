@@ -1,5 +1,4 @@
 import ProductSlider from "@/components/productSlider";
-import Partners from "./Partner";
 import Products from "./Products";
 
 function Home() {
