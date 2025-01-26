@@ -32,13 +32,13 @@ const products = [
     url: ""
   },
   {
-    name: "Kistler",
-    product: "KiDAQ Data Acquisition System",
+    name: "DAQ System",
+    product: "DAQ Data Acquisition System",
     description:
       "A modular data acquisition system for high-speed applications in research and development.",
     rating: 4.8,
     image:
-      "https://kistler.cdn.celum.cloud/SAPCommerce_CMSGalleryStandard_720x480/kidaq-and-kistudio-lab-with-jbeam-44429.webp",
+      "/images/products/kiDAQ.jpeg",
     url: "https://www.kistler.com/INT/en/c/kidaq-data-acquisition-system/CG21-kidaq-data-acquisition-system",
   },
   {
