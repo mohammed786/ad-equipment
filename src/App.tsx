@@ -16,11 +16,11 @@ function App() {
   };
   return (
     <div className="flex flex-col min-h-screen">
-      <header className="px-4 lg:px-6 h-16 flex items-center justify-between">
+      <header className="pr-4 lg:px-6 h-16 flex items-center justify-between">
         <Link to={"/"} className="flex items-center">
           <LogoIcon className="h-15 w-20" />
           <div>
-            <span className="text-lg font-bold hidden md:block">
+            <span className="text-lg md:text-2xl font-bold block md:block whitespace-nowrap">
               <b>AD Equipment & Technologies</b>
               <div className="border-t border-brandBorder"></div>
             </span>

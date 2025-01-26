@@ -12,7 +12,7 @@ const products = [
       "A versatile digital storage oscilloscope offering up to 200MHz bandwidth, designed for various applications in testing and analysis.",
     rating: 4.5,
     image:
-      "/images/products/51.jpg",
+      "https://www.spiengineers.com/products/GDS-2000E-Series-Digital-Storage-Oscilloscopes1.jpg",
     url: "https://www.gwinstek.com/en-IN/products/detail/GDS-2000E",
   },
   {
@@ -94,7 +94,7 @@ const products = [
     description:
       "The High Power DC Electronic Load is engineered for industrial applications requiring high-density testing. With power densities up to 6kW in just 4U and 24kW in 13U, this unit is perfect for high-power testing of power supplies, batteries, and renewable energy systems. It offers dynamic loading capabilities up to 50kHz and various operating modes such as constant current (CC), constant voltage (CV), constant resistance (CR), and constant power (CP). Equipped with multiple protection mechanisms and interfaces like RS232, RS485, and LAN, it ensures safe and reliable testing even under extreme conditions.",
     rating: 4.6,
-    image: "/images/products/81.png",
+    image: "/images/products/810.jpeg",
     url: "",
   },
   {
@@ -103,7 +103,7 @@ const products = [
     description:
       "The Multi-Channel Electrical Safety Tester provides high-speed testing for a wide range of electrical safety parameters, including AC/DC withstand, insulation, and grounding tests. With support for voltages up to 5kV AC and 6kV DC, and an insulation testing range of up to 2.5kV, this tester ensures your products meet the highest safety standards. Its fast testing speed, arc detection, and low-pass filter capabilities make it ideal for testing power supplies, motors, batteries, and other electrical systems in a wide variety of industries.",
     rating: 4.7,
-    image: "/images/products/167.png",
+    image: "/images/products/267.jpeg",
     url: "",
   },
   {
