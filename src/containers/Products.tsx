@@ -280,7 +280,7 @@ const productData = {
             Protection: "Overcurrent, overvoltage, over temperature",
             Interfaces: "RS232, RS485, LAN, GPIB",
           },
-          image: "/images/products/80.jpg",
+          image: "/images/products/81.png",
         },
       ],
     },

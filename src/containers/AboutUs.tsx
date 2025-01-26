@@ -7,7 +7,6 @@ import {
   Cpu,
   Factory,
   Radio,
-  Users,
   Volume2,
   Wifi,
   Zap,
@@ -70,12 +69,6 @@ export default function AboutUs() {
           icon={<Building2 className="w-8 h-8 text-primary" />}
           title="Our Offices"
           description="ADET has full-fledged offices in Ahmedabad and Vadodara, with resident sales & application engineers in Bhopal, Indore, Pune, New Delhi, and Bangalore for local support."
-        />
-
-        <FeatureCard
-          icon={<Users className="w-8 h-8 text-primary" />}
-          title="Our Partners"
-          description="We are partnered with reputed companies such as Rohde & Schwarz (Germany), GWINSTEK (Taiwan), Ainuo Instrument (China), Onosokki (Japan), HBK (Germany), PRIMA (China), RIGOL (China), SIGLENT (China), and NI LabVIEW (USA)."
         />
 
         <FeatureCard

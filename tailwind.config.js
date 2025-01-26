@@ -4,6 +4,9 @@ module.exports = {
   content: ["./index.html", "./src/**/*.{js,jsx,ts,tsx}"],
   theme: {
   	extend: {
+			fontFamily: {
+        sans: ['Calibri', 'sans-serif'],
+      },
   		borderRadius: {
   			lg: 'var(--radius)',
   			md: 'calc(var(--radius) - 2px)',
@@ -54,7 +57,8 @@ module.exports = {
   				light: '#31b1e4',
   				dark: '#122786',
   				white: '#ffffff'
-  			}
+  			},
+        brandBorder: '#0072bc'
   		},
   		keyframes: {
   			'accordion-down': {

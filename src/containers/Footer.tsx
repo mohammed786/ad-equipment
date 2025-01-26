@@ -42,13 +42,14 @@ const Footer = () => {
         </div>
         <div className="mt-6 text-center text-xs md:text-base flex flex-col md:flex-row md:justify-between">
           <p className="text-gray-500 dark:text-gray-400 mb-2 md:mb-0">
-            © 2024 AD Equipment & Technologies, All rights reserved.
+            © {new Date().getFullYear()} AD Equipment & Technologies, All rights
+            reserved.
           </p>
           <nav className="flex flex-col md:flex-row md:ml-auto gap-2 md:gap-4">
-            <Link className="hover:underline underline-offset-4" to="#">
+            <Link to={"/terms-and-privacy"} className="hover:underline underline-offset-4">
               Terms of Service
             </Link>
-            <Link className="hover:underline underline-offset-4" to="#">
+            <Link to={"/terms-and-privacy"} className="hover:underline underline-offset-4">
               Privacy
             </Link>
           </nav>

@@ -6,6 +6,7 @@ import AboutUs from "./containers/AboutUs";
 import ContactUs from "./containers/ContactUs";
 import Home from "./containers/Home";
 import Footer from "./containers/Footer";
+import TermsAndPrivacyPage from "./containers/TermsAndPrivacy";
 
 function App() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -17,10 +18,17 @@ function App() {
     <div className="flex flex-col min-h-screen">
       <header className="px-4 lg:px-6 h-16 flex items-center justify-between">
         <Link to={"/"} className="flex items-center">
-          <LogoIcon className="h-10 w-10" />
-          <span className="ml-2 text-lg font-bold hidden md:block">
-            AD Equipment & Technologies
-          </span>
+          <LogoIcon className="h-15 w-20" />
+          <div>
+            <span className="text-lg font-bold hidden md:block">
+              <b>AD Equipment & Technologies</b>
+              <div className="border-t border-brandBorder"></div>
+            </span>
+            <p className="text-md font-medium text-black">
+              Ensuring Path to Success..
+            </p>
+            <div className="border-t border-black"></div>
+          </div>
         </Link>
         <nav className="ml-auto hidden md:flex gap-4 sm:gap-6">
           <Link
@@ -78,12 +86,13 @@ function App() {
           </div>
         )}
       </header>
-
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about-us" element={<AboutUs />} />
         <Route path="/contact-us" element={<ContactUs />} />
+        <Route path="/terms-and-privacy" element={<TermsAndPrivacyPage />} />
       </Routes>
+      -
       <Footer />
     </div>
   );
