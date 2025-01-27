@@ -22,15 +22,25 @@ const Footer = () => {
           <div className="flex flex-col md:flex-row md:items-center md:space-x-6">
             <div className="mb-4 md:mb-0">
               <h3 className="font-semibold text-base md:text-lg">Contact Us</h3>
+              <h4>Email:</h4>
               <p className="text-sm md:text-base">
-                Email:{" "}
-                <a
-                  href="mailto:aliasgar@adequipment.in"
-                  className="text-blue-400 hover:underline"
-                >
-                  aliasgar@adequipment.in
-                </a>
+                <div className="d-flex">
+                  <a
+                    href="mailto:aliasgar@adequipment.in"
+                    className="text-blue-400 hover:underline"
+                  >
+                    aliasgar@adequipment.in
+                  </a>
+                  <br />
+                  <a
+                    href="mailto:dhiren@adequipment.in"
+                    className="text-blue-400 hover:underline"
+                  >
+                    dhiren@adequipment.in
+                  </a>
+                </div>
               </p>
+              <br/>
               <p className="text-sm md:text-base">
                 Phone:{" "}
                 <span className="text-blue-400 hover:underline">
@@ -46,10 +56,16 @@ const Footer = () => {
             reserved.
           </p>
           <nav className="flex flex-col md:flex-row md:ml-auto gap-2 md:gap-4">
-            <Link to={"/terms-and-privacy"} className="hover:underline underline-offset-4">
+            <Link
+              to={"/terms-and-privacy"}
+              className="hover:underline underline-offset-4"
+            >
               Terms of Service
             </Link>
-            <Link to={"/terms-and-privacy"} className="hover:underline underline-offset-4">
+            <Link
+              to={"/terms-and-privacy"}
+              className="hover:underline underline-offset-4"
+            >
               Privacy
             </Link>
           </nav>

@@ -249,7 +249,7 @@ const productData = {
               "Voltage drop compensation, overload capacity up to 110%",
             Interfaces: "RS232, RS485, USB, LAN",
           },
-          image: "/images/products/81.jpg",
+          image: "/images/products/81.png",
         },
       ],
     },

@@ -40,7 +40,9 @@ export default function ContactUs() {
             </div>
             <div className="flex items-center space-x-2">
               <Mail className="text-primary" />
-              <a href="mailto:aliasgar@adequipment.in" className="hover:underline">aliasgar@adequipment.in</a>
+              <div className='d-flex'>
+              <a href="mailto:aliasgar@adequipment.in" className="hover:underline">aliasgar@adequipment.in</a><br/><a href="mailto:dhiren@adequipment.in" className="hover:underline">dhiren@adequipment.in</a>
+              </div>
             </div>
             <div className="flex items-center space-x-2">
               <Phone className="text-primary" />
