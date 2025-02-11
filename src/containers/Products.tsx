@@ -215,7 +215,7 @@ const productData = {
       category_name: "Power Supplies",
       products: [
         {
-          product_name: "Programmable AC Power Source",  /// add
+          product_name: "Programmable AC Power Source", /// add
           description:
             "Versatile AC power source for compliance testing with programmable features.",
           specifications: {
@@ -253,36 +253,128 @@ const productData = {
         },
       ],
     },
+    // ... existing code ...
     {
-      category_name: "Electronic Loads",
+      category_name: "DC Power Supply",
       products: [
         {
-          product_name: "Programmable DC Electronic Load",
-          description:
-            "Programmable load for testing various power sources under simulated conditions.",
+          product_name: "DC Regulated Power Supply",
+          description: "High-efficiency regulated power supply with protection features.",
           specifications: {
-            "Operating Voltage": "0-150V or 0-800V",
-            Modes: "CC, CV, CR, CP",
-            "Slew Rate": "Max 16A/us",
-            Protections: "Adjustable OCP, OVP, UVP",
-            Display: '3.5" TFT LCD',
+            "Work Modes": "CV, CC",
+            "Design": "High power density, standard case",
+            "Display": "LCD with 10 presets",
+            "Protection": "Short circuit, overcurrent, overheat",
+            "Interfaces": "RS232, RS485, analog"
           },
-          image: "/images/products/78.jpg",
+          image: "/images/products/127.jpg"
         },
         {
-          product_name: "High Power DC Electronic Load", ///
-          description:
-            "High-density electronic load for industrial testing with dynamic loading capabilities.",
+          product_name: "Programmable DC Power Supply",
+          description: "Versatile power supply with overload protection.",
           specifications: {
-            "Power Density": "4U for 6kW, 13U for 24kW",
-            "Dynamic Loading": "Up to 50kHz",
-            Modes: "CC, CV, CR, CP",
-            Protection: "Overcurrent, overvoltage, over temperature",
-            Interfaces: "RS232, RS485, LAN, GPIB",
+            "Output Range": "35V/50A/1.5kW to 300V/10A/3kW",
+            "Display": "LCD with digital keys",
+            "Overload": "110% capacity",
+            "Features": "Voltage compensation, protection",
+            "Programming": "Custom waveform support"
           },
-          image: "/images/products/81.png",
+          image: "/images/products/128.jpg"
         },
-      ],
+        {
+          product_name: "Switching DC Power Supply",
+          description: "High-voltage switching supply with multiple modes.",
+          specifications: {
+            "Voltage Range": "30V to 800V",
+            "Power": "360W to 1080W",
+            "Features": "Series/Parallel operation",
+            "Interfaces": "LAN, USB, Analog"
+          },
+          image: "/images/products/129.jpg"
+        },
+        {
+          product_name: "Multi-Channel DC Power Supply",
+          description: "Advanced multi-channel supply with monitoring features.",
+          specifications: {
+            "Output": "Up to 217W, 4 channels",
+            "Display": '4.3" TFT LCD',
+            "Modes": "CC, CV, CR",
+            "Protection": "OVP, OCP, OTP",
+            "Interfaces": "RS-232, USB, LAN, GPIB"
+          },
+          image: "/images/products/131.png"
+        }
+      ]
+    },
+    {
+      category_name: "DC Electric Load",
+      products: [
+        {
+          product_name: "Programmable DC Load",
+          description: "Advanced load with multiple operation modes.",
+          specifications: {
+            "Voltage": "0-150V/0-800V",
+            "Modes": "CC/CV/CR/CP combinations",
+            "Power": "Up to 9,450W",
+            "Functions": "Program, Sequence, Dynamic",
+            "Protection": "OCP, OVP, OPP, UVP"
+          },
+          image: "/images/products/137.jpg"
+        },
+        {
+          product_name: "AC/DC Load",
+          description: "Versatile load with AC/DC capabilities.",
+          specifications: {
+            "Modes": "CC, CR, CV, CP, AC Rectifier",
+            "Frequency": "DC, 40-440Hz",
+            "Power": "Up to 90kW",
+            "Features": "Phase control, waveform support",
+            "Interfaces": "GPIB, USB, LAN"
+          },
+          image: "/images/products/138.jpg"
+        },
+        {
+          product_name: "High Power DC Load",
+          description: "High-density load with precision control.",
+          specifications: {
+            "Power": "6kW to 24kW",
+            "Precision": "±0.015% voltage, ±0.04% current",
+            "Features": "Dynamic loading, FLEX mode",
+            "Functions": "CC, CV, CR, CP",
+            "Protection": "Complete protection suite"
+          },
+          image: "/images/products/139.jpg"
+        }
+      ]
+    },
+    {
+      category_name: "Bidirectional DC Supply",
+      products: [
+        {
+          product_name: "Programmable Bidirectional Supply",
+          description: "Compact supply with source/load functions.",
+          specifications: {
+            "Voltage": "Up to 2250V",
+            "Design": "3U chassis with generator",
+            "Efficiency": "95% feedback",
+            "Features": "MPPT, solar simulation",
+            "Protection": "OTP, OVP, OCP, OPP"
+          },
+          image: "/images/products/155.jpg"
+        },
+        {
+          product_name: "High Power Bidirectional Supply",
+          description: "Advanced system for industrial applications.",
+          specifications: {
+            "Range": "24V-1200V, 90kW-1300kW",
+            "Precision": "0.05% voltage, 0.1% current",
+            "Response": "<5ms switching",
+            "Features": "Energy feedback, programmable",
+            "Applications": "EV, solar, battery testing"
+          },
+          image: "/images/products/156.jpg"
+        }
+      ]
     },
     {
       category_name: "Meters and Analyzers",
@@ -365,6 +457,50 @@ const productData = {
           image: "/images/products/98.png",
         },
       ],
+    },
+    {
+      category_name: "Impulse Voltage Generator & High Voltage Testing",
+      products: [
+        {
+          product_name: "Impulse Voltage Generator",
+          description: "High-precision impulse voltage generator with comprehensive control features and international standard compliance.",
+          specifications: {
+            "Voltage": "0.3KV to 20KV",
+            "Display": "10.1-inch touch screen",
+            "Rise Time": "1.2µs ±30%",
+            "Duration": "50µs ±20%",
+            "Interfaces": "RJ45, RS232",
+            "Standards": "IEC60255-5, IEC61000-4-5"
+          },
+          image: "/images/products/186.png"
+        },
+        {
+          product_name: "HV Surge Simulator",
+          description: "Advanced high-voltage surge simulator with precise control and multi-channel testing capabilities.",
+          specifications: {
+            "Voltage": "Up to 20000V",
+            "Display": "10.1-inch touch screen",
+            "Features": "Multi-channel testing",
+            "Rise Time": "1.2µs ±30%",
+            "Duration": "50µs ±20%",
+            "Standards": "IEC/EN60664, IEC61000-4-5"
+          },
+          image: "/images/products/187.png"
+        },
+        {
+          product_name: "High Power Dips Simulator",
+          description: "Three-phase power dips simulator with advanced coupling and precise phase control.",
+          specifications: {
+            "Load": "AC 380V, 200A, 3-phase",
+            "Phase": "0-360° injection",
+            "Voltage Drop": "Up to 100%",
+            "Duration": "0.5-6000 cycles",
+            "Display": "10.1-inch touch screen",
+            "Interface": "RJ45 with remote control"
+          },
+          image: "/images/products/188.png"
+        }
+      ]
     },
     {
       category_name: "Safety Tester and Motor Test Scheme",
