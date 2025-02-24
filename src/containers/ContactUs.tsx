@@ -36,7 +36,7 @@ export default function ContactUs() {
               <MapPin className="text-primary" />
               <p>A-510, Sun Westbank, Near Vallabh Sadan Riverfront,<br />
                  Opp. City Gold Cinema, Ashram Rd, Ahmedabad,<br />
-                 Gujarat – 380015</p>
+                 Gujarat – 380009</p>
             </div>
             <div className="flex items-center space-x-2">
               <Mail className="text-primary" />

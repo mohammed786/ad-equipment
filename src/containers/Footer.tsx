@@ -16,7 +16,7 @@ const Footer = () => {
             <p className="text-sm md:text-base">
               Opp. City Gold Cinema, Ashram Rd
             </p>
-            <p className="text-sm md:text-base">Ahmedabad, Gujarat – 380015</p>
+            <p className="text-sm md:text-base">Ahmedabad, Gujarat – 380009</p>
             <p className="text-sm md:text-base">India</p>
           </div>
           <div className="flex flex-col md:flex-row md:items-center md:space-x-6">
